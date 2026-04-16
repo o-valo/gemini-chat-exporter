@@ -38,6 +38,16 @@ Das Skript ist in reinem JavaScript geschrieben. Es nutzt:
 
     Blob und URL.createObjectURL, um die Datei im Speicher des Browsers zu generieren.
 
+##
+    ⚠️ Wichtiger Hinweis zur Nutzung (Canvas)
+
+Damit das Skript die Nachrichten korrekt finden und exportieren kann, darf kein Canvas (die interaktive Editor-Ansicht) verwendet werden. Falls Gemini versucht, Antworten in einem Canvas-Fenster zu öffnen, funktioniert der Export dort nicht.
+
+Empfehlung:
+Sollte Gemini den Canvas-Modus aktivieren, schreibe einfach kurz in den Chat:
+
+    "Bitte benutze kein Canvas für diese Ausgabe." Sobald der Text wieder im normalen Chat-Fluss erscheint, greift das Bookmarklet wieder perfekt.
+
     Ein temporäres <a> Element, um den Download-Dialog des Betriebssystems (getestet unter Ubuntu/Linux) zu triggern.
 
 ## Lizenz
