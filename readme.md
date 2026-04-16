@@ -59,3 +59,5 @@ javascript:(function(){let h="<html><head><meta charset='UTF-8'><style>body{font
 ⚖️ Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz veröffentlicht – Open Source für die Community.
+
+## Der Code wurde mit Hilfe von KI erzeugt 
