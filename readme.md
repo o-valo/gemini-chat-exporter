@@ -37,6 +37,7 @@ Das Skript ist in reinem JavaScript geschrieben. Es nutzt:
     querySelectorAll, um die Nachrichten-Container (.query-content und .model-response-text) zu identifizieren.
 
     Blob und URL.createObjectURL, um die Datei im Speicher des Browsers zu generieren.
+    Ein temporäres <a> Element, um den Download-Dialog des Betriebssystems (getestet unter Ubuntu/Linux) zu triggern.
 
 ##
     ⚠️ Wichtiger Hinweis zur Nutzung (Canvas)
@@ -48,7 +49,7 @@ Sollte Gemini den Canvas-Modus aktivieren, schreibe einfach kurz in den Chat:
 
     "Bitte benutze kein Canvas für diese Ausgabe." Sobald der Text wieder im normalen Chat-Fluss erscheint, greift das Bookmarklet wieder perfekt.
 
-    Ein temporäres <a> Element, um den Download-Dialog des Betriebssystems (getestet unter Ubuntu/Linux) zu triggern.
+    
 
 ## Lizenz
 
